@@ -1,6 +1,6 @@
 # UnLockNeteaseMusic
 
-简单方式使用Shadowsocks解锁网易云音乐灰色资源
+Quantumult X简单方式使用Shadowsocks解锁网易云音乐灰色资源
 
 详细参考链接
 https://www.moerats.com/archives/938/
@@ -63,14 +63,18 @@ chmod 777 glider && ./glider -config glider.conf
 在代理工具中配置Shadowsocks，以`glider.conf` 为准
 <br>ss://CHACHA20-IETF:password@:8888
  
-完成后 http-proxy & shadowsocks 皆可以使用
+## 完成后 http-proxy & shadowsocks 皆可以使用
 <br>
 以 Quantumult X 为例
+<br>
+
 ```
 server_local
 shadowsocks=your_ip:8888,method=chach20-ietf,password=password,fast-open=false,udp-relay=false,tag=Unblock
+
 policy
 static=NeteaseMusic,Unblock,direct
+
 Rule
 user-agent, NeteaseMusic**, NeteaseMusic
 user-agent, NeteaseMusic*, NeteaseMusic
