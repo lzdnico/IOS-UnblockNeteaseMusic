@@ -1,6 +1,6 @@
 # UnLockNeteaseMusic
 
-简单方式解锁网易云音乐灰色资源
+简单方式使用Shadowsocks解锁网易云音乐灰色资源
 
 参考链接
 
