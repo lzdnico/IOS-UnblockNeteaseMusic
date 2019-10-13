@@ -7,7 +7,7 @@ https://www.moerats.com/archives/938/<br>
 https://www.lajiblog.com/index.php/archives/4/
 <br>
 为了简洁以下以 CentOS 7、Debian、Ubuntu 为参照系统
-<br>如有详细配置，查阅以上链接<br>
+<br>如需详细配置，查阅以上链接<br>
 使用docker 安装
 ```
 curl -sSL https://get.docker.com/ | sh
