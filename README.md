@@ -1,14 +1,15 @@
 # UnLockNeteaseMusic
 
-解锁网易云音乐灰色
+简单方式解锁网易云音乐灰色资源
 
 参考链接
 
 https://www.moerats.com/archives/938/
 
 https://www.lajiblog.com/index.php/archives/4/
-
-CentOS 7、Debian、Ubuntu
+<br>
+为了简洁以下以 CentOS 7、Debian、Ubuntu 为参照系统
+<br>如有详细配置，查阅以上链接
 ```
 curl -sSL https://get.docker.com/ | sh
 
@@ -21,9 +22,10 @@ systemctl enable docker
 ```
 docker run --restart=always --name unmusic -d -p 7777:8080 nondanee/unblockneteasemusic
 ```
-运行完后可通过HTTP proxy 进行解锁
-
-#=======以下为使用shadowsocks 转发==========
+## 运行完后可通过HTTP PROXY进行解锁
+http-proxy: `your_ip:7777`
+<br>
+## 以下为使用shadowsocks 转发
 
 使用glider转发
 ```
@@ -33,7 +35,7 @@ tar zxvf glider-v0.7.0-linux-amd64.tar.gz && cd glider-v0.7.0-linux-amd64
 
 vi glider.conf
 ```
-输入 i 输入以下内容
+按 `i` 输入以下内容
 ```
 开启调试模式,输出log
 verbose=True
@@ -43,7 +45,7 @@ listen=ss://CHACHA20-IETF:password@:8888
 forward=http://127.0.0.1:7777
 #ss可以改成自己想要的加密方式密码和端口
 ```
-切换英文输入法 输入` :wq!` 回车保存
+切换英文输入法 输入` Esc 然后输入 :wq!` 回车保存
 
 安装screen窗口使其在后台运行
 ```
