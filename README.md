@@ -2,8 +2,7 @@
 
 简单方式使用Shadowsocks解锁网易云音乐灰色资源
 
-参考链接
-
+详细参考链接
 https://www.moerats.com/archives/938/
 
 https://www.lajiblog.com/index.php/archives/4/
@@ -45,7 +44,7 @@ listen=ss://CHACHA20-IETF:password@:8888
 forward=http://127.0.0.1:7777
 #ss可以改成自己想要的加密方式密码和端口
 ```
-切换英文输入法 输入` Esc 然后输入 :wq!` 回车保存
+切换英文输入法 输入` Esc `然后输入`:wq!` 回车保存
 
 安装screen窗口使其在后台运行
 ```
@@ -63,7 +62,9 @@ chmod 777 glider && ./glider -config glider.conf
 
 在代理工具中配置Shadowsocks，以`glider.conf` 为准
 <br>ss://CHACHA20-IETF:password@:8888
-
+ 
+完成后 http-proxy & shadowsocks 皆可以使用
+<br>
 以 Quantumult X 为例
 ```
 server_local
