@@ -29,10 +29,15 @@ vi glider.conf
 #输入 i 输入以下内容
 
   #开启调试模式,输出log
+  
   verbose=True
+  
   #ss的监听端口
+  
   listen=ss://CHACHA20-IETF:password@:8888
+  
   #网易云音乐解锁代理的端口
+  
   forward=http://127.0.0.1:7777
   #ss可以改成自己想要的加密方式密码和端口
 
