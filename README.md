@@ -61,4 +61,3 @@ chmod 777 glider && ./glider -config glider.conf
 
 在代理工具中配置Shadowsocks，以`glider.conf` 为准
 <br>ss://CHACHA20-IETF:password@:8888
-···
