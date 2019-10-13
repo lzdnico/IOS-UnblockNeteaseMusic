@@ -1,6 +1,6 @@
 # UnLockNeteaseMusic
 
-Quantumult X简单方式使用Shadowsocks解锁网易云音乐灰色资源
+简单方式使用Shadowsocks解锁网易云音乐灰色资源
 
 详细参考链接<br>
 https://www.moerats.com/archives/938/<br>
@@ -23,6 +23,7 @@ docker run --restart=always --name unmusic -d -p 7777:8080 nondanee/unblocknetea
 ```
 ## 运行完后可通过HTTP PROXY进行解锁
 http-proxy: `your_ip:7777`
+<br>可直接使用在Window 客户端
 <br>
 ## 以下为使用shadowsocks 转发
 
@@ -65,7 +66,7 @@ chmod 777 glider && ./glider -config glider.conf
  
 ## 完成后 http-proxy & shadowsocks 皆可以使用
 <br>
-以 Quantumult X 为例
+以 Quantumult X 配置为例
 <br>
 
 ```
