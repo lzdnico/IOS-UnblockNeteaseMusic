@@ -25,6 +25,7 @@ docker run --restart=always --name unmusic -d -p 7777:8080 nondanee/unblocknetea
 ## 运行完后可通过HTTP PROXY进行解锁
 http-proxy: `your_ip:7777`
 <br>可直接使用在Window 客户端(建议http测试成功再进行ss转发)
+<br>如果不需要ss转发，只是用http 代理，无需继续下面的教程
 <br>
 ## 以下为使用shadowsocks 转发
 #### 需要完成以上http的搭建，不可跳过直接进行ss转发
