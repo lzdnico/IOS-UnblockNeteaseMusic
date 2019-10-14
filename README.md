@@ -9,6 +9,8 @@ https://www.lajiblog.com/index.php/archives/4/
 为了简洁以下以 CentOS 7、Debian、Ubuntu 为参照系统
 <br>如需详细配置，查阅以上链接<br>
 
+`打开vps所用端口，自行谷歌`
+
 使用docker 安装
 ```
 curl -sSL https://get.docker.com/ | sh
