@@ -9,7 +9,7 @@ https://www.lajiblog.com/index.php/archives/4/
 为了简洁以下以 CentOS 7、Debian、Ubuntu 为参照系统
 <br>如需详细配置，查阅以上链接<br>
 
-`打开vps所用端口，自行谷歌`
+`打开vps所用端口，自行谷歌`<br>`如果不理解，请搜索 如何打开xx云所有端口`
 
 使用docker 安装
 ```
