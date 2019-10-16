@@ -1,4 +1,4 @@
-# UnLockNeteaseMusic
+# IOS-UnblockNeteaseMusic
 
 通过nginx代理实现ios 免自签证书解锁网易云
 
@@ -14,7 +14,7 @@ https://github.com/nondanee/UnblockNeteaseMusic/issues/65
 <br>准备域名解析到自己的VPS上，并且申请ssl证书<br>
 腾讯云免费证书：https://console.cloud.tencent.com/ssl <br>
 <br>
-1.安装 nginx 
+## 1.安装 nginx 
 ```
 yum install nginx
 
@@ -59,20 +59,20 @@ sudo systemctl enable nginx.service
 ```
 在浏览器输入`https://你的域名`能打开nginx 页面为成功，因为设置了转发可能会显示 `error`
 
-2. 安装nodejs
+## 2.安装nodejs
 ```
 #CentOS系统
 curl -sL https://rpm.nodesource.com/setup_10.x | bash -
 
 yum install nodejs git -y
 ```
-2. 安装screen窗口
+## 3. 安装screen窗口
 ```
 yum install screen
 
 screen -S node  #新建一个窗口
 ```
-3. 运行UnblockNeteaseMusic
+## 4. 运行UnblockNeteaseMusic
 ```
 git clone https://github.com/nondanee/UnblockNeteaseMusic.git
 
@@ -91,7 +91,7 @@ http-proxy: `你的域名:8080`
 ## 以下为使用shadowsocks 转发
 #### 需要完成以上http的搭建，不可跳过直接进行ss转发
 
-使用glider转发
+## 5.使用glider转发
 ```
 wget -N --no-check-certificate https://github.com/nadoo/glider/releases/download/v0.7.0/glider-v0.7.0-linux-amd64.tar.gz
 
