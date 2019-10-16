@@ -1,6 +1,6 @@
 # UnLockNeteaseMusic
 
-简单方式使用Shadowsocks解锁网易云音乐灰色资源
+通过nginx代理实现ios 免自签证书解锁网易云
 
 详细参考链接<br>
 https://www.moerats.com/archives/938/<br>
@@ -80,9 +80,7 @@ node app.js -e https://你的域名   #可以通过 -p <port> 来更换端口和
 ```
 按ctrl +a  再按d 让此页面挂在后台
 
-```
 
-```
 ## 运行完后可通过HTTP PROXY进行解锁
 http-proxy: `你的域名:8080`
 <br>可直接使用在Window 客户端(建议http测试成功再进行ss转发)
