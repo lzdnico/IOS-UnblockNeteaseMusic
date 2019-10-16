@@ -9,9 +9,14 @@ https://github.com/nondanee/UnblockNeteaseMusic/issues/65
 <br>
 为了简洁以下以 CentOS 7、Debian、Ubuntu 为参照系统
 <br>如需详细配置，查阅以上链接<br>
+# 准备<br>
 
-`打开vps所用端口，自行谷歌`<br>`如果不理解，请搜索 如何打开xx云所有端口`
-<br>准备域名解析到自己的VPS上，并且申请ssl证书<br>
+1.打开vps所用端口，自行谷歌<br>
+如果不理解，请搜索 如何打开xx云所有端口<br>
+    
+2.准备域名并把它解析到自己的VPS上<br>
+
+3.申请ssl证书<br>
 腾讯云免费证书：https://console.cloud.tencent.com/ssl <br>
 <br>
 ## 1.安装 nginx 
