@@ -49,7 +49,7 @@ vim nginx.conf
 
 ```
 切换英文输入法 按` Esc `然后输入`:wq!` 回车保存
-启动 `nginx` 并设置为开机启动
+<br>启动 `nginx` 并设置为开机启动
 ```
 sudo systemctl start nginx.service
 
